@@ -1,0 +1,6 @@
+*.cache/*
+*.gen/*
+*.ip_user_files/*
+*.runs/*
+*.srcs/**/bd/*
+*.log
