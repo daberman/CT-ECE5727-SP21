@@ -1,0 +1,8 @@
+hw/*.cache/*
+hw/*.gen/*
+hw/*.ip_user_files/*
+hw/*.runs/*
+hw/*.srcs/**/bd/*
+hw/*.log
+hw/*.xsa
+sw_proj/*
