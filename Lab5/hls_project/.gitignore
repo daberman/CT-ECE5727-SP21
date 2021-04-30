@@ -1,0 +1,14 @@
+!.cproject
+!.project
+!hls.app
+!**/.settings/*.launch
+!**/.settings/*.xml
+!*.apf
+!*.bmp
+**/solution*/*.tcl
+!**/solution*/directives.tcl
+**/solution*/csim/
+**/solution*/syn/
+**/solution*/impl/
+**/solution*/sim/
+**/solution*/.autopilot/
