@@ -366,10 +366,6 @@
           <spirit:name>ASSOCIATED_RESET</spirit:name>
           <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI_S2MM_CLK.ASSOCIATED_RESET">M_AXIS_S2MM_ARESETN</spirit:value>
         </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI_S2MM_CLK.FREQ_HZ"/>
-        </spirit:parameter>
       </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
@@ -402,10 +398,6 @@
         <spirit:parameter>
           <spirit:name>ASSOCIATED_RESET</spirit:name>
           <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI_MM2S_CLK.ASSOCIATED_RESET">S_AXIS_MM2S_ARESETN</spirit:value>
-        </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI_MM2S_CLK.FREQ_HZ"/>
         </spirit:parameter>
       </spirit:parameters>
       <spirit:vendorExtensions>
@@ -514,7 +506,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>ae019f9d</spirit:value>
+            <spirit:value>47d8ca42</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -533,7 +525,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8cd9fe21</spirit:value>
+            <spirit:value>27346c6c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -547,7 +539,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8ebd6a31</spirit:value>
+            <spirit:value>33752f34</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1314,14 +1306,12 @@
         <spirit:userFileType>xdc</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/fifo_32/fifo_32.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-        <spirit:userFileType>CELL_NAME_d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/fifo_32</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>src/fifo_4/fifo_4.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
-        <spirit:userFileType>CELL_NAME_d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/fifo_4</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/fifo_32/fifo_32.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>src/DCM.vhd</spirit:name>
@@ -1361,7 +1351,7 @@
       <spirit:file>
         <spirit:name>src/d_axi_i2s_audio_v2_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_176feaf6</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_3873391b</spirit:userFileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1378,14 +1368,12 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/fifo_32/fifo_32.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-        <spirit:userFileType>CELL_NAME_d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/fifo_32</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>src/fifo_4/fifo_4.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
-        <spirit:userFileType>CELL_NAME_d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/fifo_4</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/fifo_32/fifo_32.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>src/DCM.vhd</spirit:name>
@@ -1528,68 +1516,56 @@
       <xilinx:vendorDisplayName>Digilent, Inc.</xilinx:vendorDisplayName>
       <xilinx:vendorURL>http://www.digilentinc.com</xilinx:vendorURL>
       <xilinx:coreRevision>54</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2021-04-22T02:19:15Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2021-05-04T17:52:43Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="natinst.com:user:d_axi_i2s_audio:2.0_ARCHIVE_LOCATION">C:/Users/nagy/Work/Atlys2/atlys2bist/proj</xilinx:tag>
         <xilinx:tag xilinx:name="digilentinc.com:user:d_axi_i2s_audio:2.0_ARCHIVE_LOCATION">C:/Work/Github/NexysVideo/Projects/dma/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@45c13ed3_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@19f3df0f_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d46dd4_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@587a02dd_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bd2e9f8_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@916d897_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@15988afa_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a7d398d_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e455fb1_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@68d8ebf3_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c4b68bf_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@26867719_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@14a3246a_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@41d89c0a_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@468bbb52_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@15de677_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@26c97f7b_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@779cd2f0_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@215d2a13_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@509ce0ee_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1afdf339_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@76fa76d3_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a3dd237_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@26d3478b_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@adc2b3c_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d559e5_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@289dcc3e_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@246ec137_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@621fdcb4_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@29b5a235_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@50edab0d_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@73bc19a3_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@ce461ef_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@126e6698_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5bf38e85_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/hw.ipdefs/repo/local/ip/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@42a861e7_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@18e2471c_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@52c44b51_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@67f17ace_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5383b4f0_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@242a6636_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@48c91769_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@17a681f6_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@53827fff_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d4b9d01_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f4dd3f7_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4096fbff_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7209f349_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ba0ed61_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@25948006_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@cac881b_ARCHIVE_LOCATION">s:/danme/Documents/GitHub/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30e9c117_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2591687d_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fc32247_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3908adda_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36ad219e_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a9a9637_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2dca7e84_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39d7d2b4_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32f51cbe_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71cfd64a_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f85e995_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49e60bab_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ea6b14f_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64b98916_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1850d97_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bb5f061_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d2b02f6_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b121c8c_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@375e8663_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4343701a_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a7a1c9a_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3577fe2e_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c912f4d_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1104ab88_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d6e3619_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b2672d7_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20cffbc9_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3af3aecf_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d86a583_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c2e299c_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11a6712d_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b247b95_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@602c76c6_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1428f5f2_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d1b15c1_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c04c3b7_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27ca3f1d_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6392b28f_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7778ef1a_ARCHIVE_LOCATION">/home/dan/CT-ECE5727-SP21/Lab4/hw/Lab4.ip/repo/d_axi_i2s_audio_v2_0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="487c046a"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="1447e345"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="f4cef08e"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="fac77474"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="08c73746"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="53a7e7bf"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="8128fb8d"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="90bed9a4"/>
