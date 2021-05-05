@@ -1,3 +1,4 @@
+#define _GLIBCXX_USE_CXX11_ABI 0
 #include "common/xf_common.hpp"
 #include "common/xf_infra.hpp"
 #include "imgproc/xf_cvt_color.hpp"

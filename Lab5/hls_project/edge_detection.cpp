@@ -1,6 +1,10 @@
 #include "edge_detection.h"
 void edge_detect(stream_t& stream_in, stream_t& stream_out_x, stream_t& stream_out_y)
 {
+#pragma HLS INTERFACE ap_ctrl_none port=return
+#pragma HLS INTERFACE axis register_mode=both register port=stream_out_x
+#pragma HLS INTERFACE axis register_mode=both register port=stream_out_y
+#pragma HLS INTERFACE axis register_mode=both register port=stream_in
 	//xf::cv::Mat-type local variables for intermediate results
 	rgb_img_t  src(MAX_HEIGHT, MAX_WIDTH);
 	gray_img_t src_gray(MAX_HEIGHT, MAX_WIDTH);
